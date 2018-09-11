@@ -1,8 +1,5 @@
 <!doctype html>
-<head>
-    {{URL::asset('public/css/style.css');}}
-</head>
-    
+<link rel="stylesheet" type="text/css" href="/css/style.css">
 <body>
     <div class="center">
         <a>Register</a>
@@ -10,5 +7,5 @@
         <p>Hello world</p>
     </div>
 </body>
-    
+
 </html>
