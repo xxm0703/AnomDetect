@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-    return view('main');
-});
+Route::post('/login/submit', LoginController@validate);
