@@ -17,4 +17,6 @@ Route::get('/home', 'Navigator@getHome');
 
 Route::get('/devices', 'Navigator@getDevices');
 
+Route::get('/data', 'Navigator@getData');
+
 Route::post('/login/submit', 'LoginController@val');

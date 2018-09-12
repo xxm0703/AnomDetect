@@ -18,4 +18,8 @@ class Navigator extends Controller
     {
     	return view('welcome');
     }
+	public function getData()
+    {
+    	return view('data');
+    }
 }
