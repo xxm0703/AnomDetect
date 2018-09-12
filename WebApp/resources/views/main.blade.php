@@ -14,7 +14,7 @@
       <header class="masthead mb-auto">
         <div class="inner">
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link active" href="#">Home</a>
             <a class="nav-link" href="/devices">Devices</a>
             <a class="nav-link" href="#">About Us</a>
             <a class="nav-link" href="#">FAQ</a>
