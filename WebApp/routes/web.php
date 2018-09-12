@@ -15,4 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/login/submit', LoginController@validate);
+Route::get('/home', function () {
+    return view('main');
+});
+
+Route::get('/login/submit', 'LoginController@validate');
+
+Auth::routes();
