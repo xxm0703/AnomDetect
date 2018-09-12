@@ -22,5 +22,3 @@ Route::get('/home', function () {
 Route::get('/login/submit', 'LoginController@validate');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
