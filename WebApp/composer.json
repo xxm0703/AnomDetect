@@ -9,7 +9,9 @@
         "barryvdh/laravel-ide-helper": "v2.5.1",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "laravelcollective/html": "^5.7",
+		"rackspace/php-opencloud": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
