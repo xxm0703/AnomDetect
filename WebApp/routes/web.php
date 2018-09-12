@@ -11,16 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Navigator@getLogin');
 
-Route::get('/home', function () {
-    return view('main');
-});
+Route::get('/home', 'Navigator@getHome');
 
-Route::get('/devices', function () {
-    return view('devices');
-});
+Route::get('/devices', 'Navigator@getDevices');
 
 Route::post('/login/submit', 'LoginController@val');
