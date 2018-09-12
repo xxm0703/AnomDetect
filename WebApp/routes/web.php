@@ -19,4 +19,8 @@ Route::get('/home', function () {
     return view('main');
 });
 
+Route::get('/devices', function () {
+    return view('devices');
+});
+
 Route::post('/login/submit', 'LoginController@val');
