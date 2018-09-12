@@ -40,18 +40,22 @@ body {
 
 .cover-container {
   max-width: 42em;
+  text-align: center;
 }
 
-
+.txcol{
+  color: black;
+}
 /*
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .masthead-brand {
   margin-bottom: 0;
+  color: #DC143C;
 }
 
 .nav-masthead .nav-link {
@@ -60,6 +64,7 @@ body {
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+  text-align: center;
 }
 
 .nav-masthead .nav-link:hover,
@@ -69,6 +74,7 @@ body {
 
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem;
+  color: black;
 }
 
 .nav-masthead .active {
@@ -91,12 +97,17 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  color: black;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+  background-color: #7FFF00;
 }
+.butonn{
+  background-color: #7FFF00;
 
+}
 
 /*
  * Footer
@@ -113,5 +124,5 @@ body {
 
 .marto{
   text-align: center;
-  
+
 }
